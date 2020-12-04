@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css:build": "postcss styles --base styles --dir public/",
-    "build": "tailwind build styles/style.css -c ./tailwind.config.js -o public/style.css"
+    "build": "postcss styles --base styles --dir public/"
   },
   "keywords": [],
   "author": "",
