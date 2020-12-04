@@ -1,0 +1,19 @@
+{
+  "name": "2-friday-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "postcss styles --base styles --dir public/",
+    "build": "tailwind build styles/style.css -c ./tailwind.config.js -o public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
